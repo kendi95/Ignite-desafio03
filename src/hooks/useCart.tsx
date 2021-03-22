@@ -138,7 +138,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       });
 
     } catch(err) {
-      // TODO
       toast.error(err.message);
     }
   };
