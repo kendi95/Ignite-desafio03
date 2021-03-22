@@ -182,7 +182,7 @@ describe('useCart Hook', () => {
       expect.arrayContaining([
         {
           id: 1,
-          amount: 3,
+          amount: 2,
           image:
             'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
           price: 179.9,
